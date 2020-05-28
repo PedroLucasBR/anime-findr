@@ -1,12 +1,16 @@
 import React from 'react';
-import Search from './search';
+import Search from './components/search';
+
+import "./App.css"
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Lista Anime</h1>
-      <Search />
+    <div className="container">
+
+      <div className="content">
+        <Search />
+      </div>
     </div>
   );
 }

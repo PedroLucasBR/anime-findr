@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import Anime from './animes'
+import Anime from '../../components/animes';
 
-const API_URL = 'https://kitsu.io/api/edge/'
+const API_URL = 'https://kitsu.io/api/edge/';
 
 class Search extends Component {
     state = {
